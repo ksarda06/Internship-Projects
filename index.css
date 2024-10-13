@@ -1,0 +1,456 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing:border-box;
+}
+.navbar{
+    background-color: rgb(37, 35, 35);
+    display:flex;
+    height:60px;
+    width:100vw;
+}
+#Logo{
+    width:113px;
+    height:50px;
+    margin:1px;
+    padding:1px 8px 0px 6px;
+}
+.nav-line{
+     display:flex;
+     flex-direction:column;
+     margin:0px 2px 0px 3px ;
+     /*justify-content:space-around;*/
+}
+.nav-line-1{
+    color: rgb(180, 169, 169);
+    padding-top:12px;
+    padding-left:12px;
+    padding-right:10px;
+}
+.nav-line-2{
+    color: white;
+}
+#Type-select{
+    background-color:rgb(234, 230, 230);
+    /* color:blue; */
+    margin-top:15px;
+    margin-left:10px;
+    height:30px;
+    width:50px;
+}
+/*#item1:hover{
+    background-color: blue;
+}*/
+#search-engine{
+    display: flex;
+}
+#search-box{
+    margin-top:15px;
+    margin-left:0px;
+    margin-right:0px;
+    height:30px;
+    width:750px;
+}
+#search-icon{
+    border:solid 0.5px rgb(235, 170, 50);
+    background-color:rgb(235, 170, 50);
+    padding:5px 5px;
+    padding-left:0px;
+    margin-left:0px;
+    box-shadow:-5px 0px rgb(235, 170, 50);
+    border-radius:2px;
+}
+#lang-select{
+    margin-top:20px;
+    margin-left:10px;
+    background-color:rgb(37, 35, 35);
+    color:white;
+    border-color:rgb(37, 35, 35);
+}
+.Accounts{
+    display:flex;
+    flex-direction:column;
+    margin-left:35px;
+    margin-top:15px;
+}
+#Hello-head{
+    color: white;
+}
+#Accounts-section{
+    background-color:rgb(37, 35, 35);
+    color:white;
+    border-color:rgb(37, 35, 35);
+} 
+#signin{
+    font-size:100px;
+}
+.Return-and-order{
+    color: white;
+    display: flex;
+    flex-direction:column;
+    margin-left:35px;
+    margin-top:15px;
+    margin-bottom:10px;
+}
+#return{
+    font-size:13px;
+}
+#order{
+    font-size:20px;
+}
+.cart{
+    color: white;
+    margin-left:35px;
+    margin-top:20px;
+    display:flex;
+}
+/*#cart-icon{
+    size:200px;
+}*/
+#cart-text{
+    margin-top:3px;
+    font-size:20px;
+}
+.nav-locator{
+    width:100vw;
+    height:40px;
+    background-color: rgb(26, 24, 24);
+    display: flex;
+}
+.nav-btn{
+    color: white;
+    margin-top:5px;
+    margin-right:20px;
+}
+.Hero-section{
+    display:flex;
+    flex-direction: column;
+}
+#Hero-1{
+    height:250px;
+    width:100vw;
+    object-fit: fill;
+}
+.categories-1{
+    background-color: rgba(165, 152, 152, 0.993);
+    display:flex;
+}
+.Gaming-accesories{
+    height:330px;
+    width:25vw;
+    margin-left:20px;
+    background-color: white;
+    display:flex;
+    flex-direction:column;
+    /*border-style:solid;
+    border-color:white;*/
+}
+#Gaming-access{
+    margin-top:20px;
+    margin-left:10px;
+    font-size:30px;
+}
+.game-row-1{
+    display: flex;
+    justify-content: space-between;
+    margin-top:10px;
+}
+.game-row-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top:10px;
+}
+.Toys{
+    height:330px;
+    width:25vw;
+    margin-left:20px;
+    background-color: white;
+    display:flex;
+    flex-direction:column;
+    /*border-style:solid;
+    border-color:white;*/
+}
+#Toys-text{
+    margin-top:20px;
+    margin-left:10px;
+    font-size:30px;
+}
+#Toy-img{
+    width:20vw;
+    height:250px;
+    margin-left:35px;
+    margin-top: 10px;
+}
+.Electronics{
+    height:330px;
+    width:25vw;
+    margin-left:20px;
+    background-color: white;
+    display:flex;
+    flex-direction:column;
+    /*border-style:solid;
+    border-color:white;*/
+}
+#Electronics-text{
+    margin-top:20px;
+    margin-left:10px;
+    font-size:30px;
+}
+#Electronics-img{
+    width:20vw;
+    height:250px;
+    margin-left:35px;
+    margin-top: 10px;
+}
+.Health-personalcare{
+    height:330px;
+    width:25vw;
+    margin-left:20px;
+    background-color: white;
+    display:flex;
+    flex-direction:column;
+    /*border-style:solid;
+    border-color:white;*/
+}
+#HPC-text{
+    margin-top:20px;
+    margin-left:10px;
+    font-size:30px;
+}
+#HPC-img{
+    width:20vw;
+    height:250px;
+    margin-left:35px;
+    margin-top: 10px;
+}
+.categories-2{
+    background-color: rgba(165, 152, 152, 0.993);
+    display:flex;
+    height:390px;
+}
+.school{
+    height:350px;
+    width:25vw;
+    margin:20px 20px 20px 20px;
+    background-color: white;
+    display:flex;
+    flex-direction:column;
+    /*border-style:solid;
+    border-color:white;*/
+}
+#School-text{
+    margin-top:20px;
+    margin-left:10px;
+    font-size:30px;
+}
+#school-img{
+    width:20vw;
+    height:250px;
+    margin-left:35px;
+    margin-top: 15px;
+    /* margin-bottom:15px; */
+    /* margin-right:15px; */
+}
+.Home-kitchen{
+    height:350px;
+    width:23vw;
+    margin-top:20px;
+    background-color: white;
+    display:flex;
+    flex-direction:column;
+    /*border-style:solid;
+    border-color:white;*/
+}
+#HK-text{
+    margin-top:20px;
+    margin-left:10px;
+    font-size:30px;
+}
+#HK-img{
+    width:20vw;
+    height:230px;
+    margin-left:25px;
+    margin-top: 15px;
+    /* margin-bottom:15px; */
+    /* margin-right:15px; */
+}
+.Fashion{
+    height:350px;
+    width:23vw;
+    margin-top:20px;
+    margin-left:15px;
+    background-color: white;
+    display:flex;
+    flex-direction:column;
+    /*border-style:solid;
+    border-color:white;*/
+}
+#Fashion-cloth{
+    margin-top:20px;
+    margin-left:10px;
+    font-size:30px;
+}
+.Fashion-row-1{
+    display: flex;
+    justify-content: space-between;
+    margin-top:30px;
+    margin-left:10px;
+}
+.Fashion-row-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top:30px;
+    margin-left:10px;
+}
+#F-img-1{
+    width:10vw;
+}
+#F-img-2{
+    width:10vw;
+    margin-right:10px;
+}
+#F-img-3{
+    width:10vw;
+}
+#F-img-4{
+    width:10vw;
+    margin-right:10px;
+}
+.Fitness{
+    height:350px;
+    width:23vw;
+    margin-top:20px;
+    margin-left:20px;
+    background-color: white;
+    display:flex;
+    flex-direction:column;
+    /*border-style:solid;
+    border-color:white;*/
+}
+#Fitness-text{
+    margin-top:20px;
+    margin-left:10px;
+    font-size:30px;
+}
+#Fitness-img{
+    width:20vw;
+    height:230px;
+    margin-left:25px;
+    margin-top: 15px;
+    /* margin-bottom:15px; */
+    /* margin-right:15px; */
+}
+.categories-3{
+    height:300px;
+    width:100vw;
+    margin-top:15px;
+    display:flex;
+    flex-direction:column;
+    border-bottom:solid black 0.5px;
+}
+#Home-Decor-text{
+    margin-top:20px;
+    margin-left:10px;
+    font-size:30px;
+   
+}
+.HD-img{
+    display: flex;
+    flex-direction: row;
+}
+#HD-img-1{
+    margin-left:25px;
+    margin-top:25px;
+    margin-right:25px;
+}
+#HD-img-2{
+    margin-left:25px;
+    margin-top:25px;
+    margin-right:25px;
+}
+#HD-img-3{
+    margin-left:25px;
+    margin-top:25px;
+    margin-right:25px;
+}
+#HD-img-4{
+    margin-left:25px;
+    margin-top:25px;
+    margin-right:25px;
+}
+#HD-img-5{
+    margin-left:25px;
+    margin-top:25px;
+    margin-right:25px;
+}
+.Back-to-top{
+    height:100px;
+    width:100vw;
+    background-color: rgb(52, 50, 50);
+    display:flex;
+    justify-content: center; 
+}
+#Back-to-top-text{
+    color:white;
+    margin-top:40px;
+}
+.footer-area{
+    background-color: rgb(40, 37, 37);
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+.Get-to-know-us-container{
+    display:flex;
+    flex-direction:column;
+}
+.foot-1{
+    color: rgb(187, 179, 179);
+    margin:8px;
+}
+.Make-money-with-us-conatainer{
+    display:flex;
+    flex-direction:column;
+}
+.foot-2{
+    color: rgb(187, 179, 179);
+    margin:8px;
+}
+.Amazon-payment-products-conatainer{
+    display:flex;
+    flex-direction:column;
+}
+.foot-3{
+    color: rgb(187, 179, 179);
+    margin:8px;
+}
+.Let-us-help-you-conatainer{
+    display:flex;
+    flex-direction:column;
+}
+.foot-4{
+    color: rgb(187, 179, 179);
+    margin:8px;
+}
+.foot-1-1{
+    color:white;
+    font-size:20px;
+    margin-top:20px;
+
+}
+.foot-2-1{
+    color:white;
+    font-size:20px;
+    margin-top:20px;
+}
+.foot-3-1{
+    color:white;
+    font-size:20px;
+    margin-top:20px;
+}
+.foot-4-1{
+    color:white;
+    font-size:20px;
+    margin-top:20px;
+}
